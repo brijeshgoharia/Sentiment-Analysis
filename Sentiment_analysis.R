@@ -36,10 +36,10 @@ library(syuzhet)
 #oauth_endpoint(authorize = "https://api.twitter.com/oauth", access = "https://api.twitter.com/oauth/access_token")
 
 # Authonitical keys
-consumer_key <- 'fvyLg21twQGJwTzkRwfZ5KwWy'
-consumer_secret <- 'JwNCdMbrpny3pe26fb541hx1mylfOidAGAnbvK3fuctUCW4Gkv'
-access_token <- '2898687642-UEb54DLP1nHCz7Db8u4WdfyLvVUV9PQ2eHUsKmE'
-access_secret <- 'APNBZbl1tOvmgy0dAfX4BathuvHs8yuyg4pWdNgybnE60'
+consumer_key <- '*******'
+consumer_secret <- '*******'
+access_token <- '******'
+access_secret <- '******'
 
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 tweets <- searchTwitter("Arya", n=2000, since = "2019-04-1", lang="en")
